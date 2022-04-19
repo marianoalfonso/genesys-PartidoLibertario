@@ -1,0 +1,22 @@
+http://partidolibertario.com.ar/
+
+
+Nombre:
+Apellido:
+Email:
+Celular:
+Tipo de documento: (Desplegable que se pueda elegir entre DNI; L.C; o L.E)
+N° de Doc:
+Lugar de nacimiento:
+Fecha de nacimiento:
+Sexo: (Desplegable y solo Masculino o Femenino)
+Estado Civil: (desplegable a elegir entre Soltero; Casado; Viudo o Divorciado)
+Provincia:
+Partido:
+Localidad:
+Cod. Postal:
+Calle: Altura:
+Piso y Dpto:
+Nombre y Apellido de la madre: N° de DNI de la madre:
+Nombre y apellido del padre: N° de DNI del padre: 
+Boton para adjuntar foto o PDF del DNI de la persona que se va a afiliar:

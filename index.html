@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="save.php" method="POST">
+        <p>
+            <label for="nombre">nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+        </p>
+        <p>
+            <label for="apellido">apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br>
+        </p>
+        <p>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email"><br>           
+        </p>
+        <p>
+            <label for="telefono">telefono:</label>
+            <input type="numeric" id="telefono" name="telefono"><br>          
+        </p>
+        <p>
+            <label for="dniTipo">tipo documento:</label>
+            <!-- option -->
+        </p>
+        <p>
+            <label for="documento">nro. de documento:</label>
+            <input type="numeric" id="documento" name="documento"><br>             
+        </p>
+        <p>
+            <label for="fechaNacimiento">fecha de nacimiento:</label>           
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento"><br>  
+        </p>
+        <p>
+            <label for="lugarNacimiento">lugar de nacimiento:</label>
+            <input type="text" id="lugarNacimiento" name="lugarNacimiento"><br>
+        </p>
+        <p>
+            <label for="sexo">sexo:</label>           
+            <select name="sexo" id="sexo">
+                <option value="1">femenino</option>
+                <option value="2">masculino</option>
+            </select>
+        </p>
+        <p>
+            <label for="estadoCivil">estado civil:</label>           
+            <select name="estadoCivil" id="estadoCivil">
+                <option value="1">soltero/a</option>
+                <option value="2">casado/a</option>
+                <option value="3">viudo/a</option>
+                <option value="4">divorciado/a</option>
+            </select>
+        </p>
+        <!-- si es solo para la 6ta seccion, verificar que partidos y localidades incluye -->
+        <p>
+            <label for="codigoPostal">codigo postal:</label>
+            <input type="codigoPostal" id="codigoPostal" name="codigoPostal"><br>             
+        </p>
+        <p>
+            <label for="provincia">provincia:</label>
+            <input type="text" id="provincia" name="provincia"><br>
+        </p>
+        <p>
+            <label for="partido">partido:</label>
+            <input type="partido" id="partido" name="partido"><br>
+        </p>
+        <p>
+            <label for="localidad">localidad:</label>
+            <input type="text" id="localidad" name="localidad"><br>
+        </p>
+        <p>
+            <label for="direccion">direccion:</label>
+            <input type="text" id="direccion" name="direccion"><br>
+        </p>
+        <p>
+            <label for="nombreMadre">nombre y apellido de la madre:</label>
+            <input type="text" id="nombreMadre" name="nombreMadre"><br>
+        </p>
+        <p>
+            <label for="dniMadre">numero de DNI de la madre:</label>
+            <input type="numeric" id="dniMadre" name="dniMadre"><br>
+        </p>       
+        <p>
+            <label for="nombrePadre">nombre y apellido del padre:</label>
+            <input type="text" id="nombrePadre" name="nombrePadre"><br>
+        </p>
+        <p>
+            <label for="dniPadre">numero de DNI del padre:</label>
+            <input type="numeric" id="dniPadre" name="dniPadre"><br>
+        </p>  
+        <!-- adjuntar foto DNI -->
+
+    </form>
+
+
+</body>
+</html>
